@@ -1,2 +1,40 @@
-oi aqui é o jona
-testes.html
+<!DOCTYPE html>
+<html lang="pt br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-mobiliária</title>
+    </head>
+    <style>
+        .cabeça{
+            padding-left: 80%;
+        }
+    </style>
+    <body>
+        <header class="cabeça"><a href="#">Criar-Entrar Conta</a></header>
+        <form action="#" method="get">
+            <h3>Entrar</h3>
+            <label id="nome">Nome</label>
+            <input type="text" name="nome" size="40" value="Digite seu nome">
+            <br>
+            <label id="nome">Senha</label>
+            <input type="text" name="nome" size="40" value="Digite seu nome">
+            <br>
+            <h3>Criar</h3>  
+            <form action="#" method="get">
+                <label id="nome">E-mail</label>
+                <input type="text" name="nome" size="40" value="Digite seu nome">
+                <br>
+        <h1>E-mobiliária</h1>
+        
+        <table>
+            <tr>
+                <th>Predin</tr>
+                <td><img src="download.jpg"></td>
+            </tr>
+        </table>
+
+    
+    </body>
+</html>
