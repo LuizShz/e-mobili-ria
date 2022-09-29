@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt br">
-    
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>E-mobiliária</title>
+
     </head>
     <style>
+        .cabeça{
+            padding-left: 85%;
+        }
         footer {
               text-align: left;
               padding: 3px;
@@ -16,25 +19,52 @@
             }
     </style>
     <body>
-        <h1><img src="https://i.ibb.co/MMFv2GH/Logo.png"alt="e-imobiliária" width="200" height="40" title="e-mobiliária"></h1>
+        
+        <h1><img src="https://i.ibb.co/MMFv2GH/Logo.png"alt="e-mobiliária" width="200" height="40" title="e-mobiliária"></h1>
+        <header class="cabeça"><a href="Criar_conta.html">Criar Conta <br></a></header>
+        <header class="cabeça"><a href="Conta.html">Entrar <br></a></header>
+        <p><h3>Facilidade e segurança está aqui!</h3></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8y9oV0L5ISM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-        <h4>Criar conta<br><br>
-        <form action="#" method="get">
-            <label id="nome">Email :</label>
-            <input type="text" name="nome" size="40" value="">
-            <br><br>
-            <label id="nome">Senha :</label>
-            <input type="password" name="nome" size="36" value="" minlength="8" maxlength="12">
-            <br><br>
-            <label id="nome">Confirmar Senha :</label>
-            <input type="password" name="nome" size="25" value="" minlength="8" maxlength="12">
-            <br><br>
-            <label id="nome">Telefone :</label>
-            <input type="text"name="nome" size="34" value=""><br><br>
-            <header class="cabeça"><a href="index.html">Entrar<br></a></header>
-            <br><br><br><br><br><br><br><br><br>
+       <br><br><br>
+        <table >
+            <th><h2>Imóveis à venda</h2></th>
+            <tr>
+                <th>Apartamentos</th> <!--td linha-->
+                <th>Casas</th>  <!--Tr coluna-->
+                <th>Terrenos</th> 
+                <th>Chacáras</th>  
+                <th>Fazendas</th>
+                <th>Lojas</th>
+             </tr>
+            <tr>
+                <td><img src="https://i.ibb.co/72rFzyk/predio5.jpg"alt="Predio" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/RDhkyHn/pexels-pixabay-164522.jpg"alt="casa" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/VMmMK1T/terreno3.jpg"alt="Terreno" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/RHwSxNt/chacara3.jpg"alt="Chacaras" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/pxz4W1k/fazenda1.jpg"alt="Fazendas" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/RPRZzWH/loja3.jpg"alt="Lojas" width="200" height="180"></td>
+            </tr>
+            <tr>
+                <td><img src="https://i.ibb.co/whX6H01/predio2.png"alt="Predio" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/yPMVQbd/pexels-photo-186077.jpg"alt="casa" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/rQv5prQ/terreno1.jpg"alt="Terrenos" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/6r8VPKM/chacara4.jpg"alt="Chacaras" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/M5VNTRT/fazenda2.jpg"alt="Fazendas" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/k1FHKZL/loja4.jpg"alt="Lojas" width="200" height="180"></td>
+            </tr>
+            <tr>
+                <td><img src="https://i.ibb.co/CskGvzC/predio3.jpg"alt="Predio" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/7QyCKNw/images-j.jpg"alt="casa" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/8xxDh6V/terreno2.jpg"alt="Terrenos" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/87f92jh/chacara1.jpg"alt="Chacaras" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/Cmdr4cq/fazenda4.jpg"alt="Fazendas" width="200" height="180"></td>
+                <td><img src="https://i.ibb.co/2y7c22j/loja1.jpg"alt="Lojas" width="200" height="180"></td>
+            </tr>
+        </table>
+        <br><br>
         <footer>
+            <img src="https://i.ibb.co/MMFv2GH/Logo.png"alt="e-mobiliária" width="220" height="40" title="e-mobiliária">
             <table>
                 <tr>
                     <td>
