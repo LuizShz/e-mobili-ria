@@ -24,7 +24,7 @@
             <label id="nome">Senha :</label>
             <input type="password" name="nome" size="36" value="" minlength="8" maxlength="12">
             <br><br>
-            <header class="cabeça"><a href="E-mobiliária.html">Entrar<br></a></header>
+            <header class="cabeça"><a href="index.html">Entrar<br></a></header>
             <br><br><br><br><br><br><br><br><br><br><br><br><br>
             <footer>
                 <table>
