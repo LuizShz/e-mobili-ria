@@ -21,7 +21,7 @@
     <body>
         
         <h1><img src="https://i.ibb.co/MMFv2GH/Logo.png"alt="e-imobiliária" width="200" height="40" title="e-mobiliária"></h1>
-        <header class="cabeça"><a href="Criar Conta.html">Criar Conta <br></a></header>
+        <header class="cabeça"><a href="Criar_Conta.html">Criar Conta <br></a></header>
         <header class="cabeça"><a href="Conta.html">Entrar <br></a></header>
         <p><h3>Facilidade e segurança está aqui!</h3></p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/8y9oV0L5ISM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
