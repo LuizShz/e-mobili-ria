@@ -2,8 +2,8 @@
 @font-face {
     font-family:'tommysoft';
     src: url('fontes/TommySoft-Medium.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: Medium;
+    font-style: Medium;
     }
     /*
     Tipos de format() 
@@ -15,11 +15,14 @@
     */
 
     /*logomarca*/
-    .logoa{
+    #titulo{
+        text-align: center;
+    }
+    #logoa{
     font-family:'tommysoft';
     color:#ff6633
     }
-    .logob{
+    #logob{
     font-family:'tommysoft';
     color:#000000
     }
@@ -124,8 +127,8 @@
 .body-page{
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 9px;
+    margin-right: 9px;
     border-radius: 10px;
 }
 .post1{
