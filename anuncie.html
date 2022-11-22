@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuncie</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scriptanuncie.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="titulo"><a id="logoa">e<span id="logob">-mobiliaria</span></a></div>
+        <!--nav bar-->
+        <!-- fazer as paginas abaixo -->  
+        <div class="container-nav">
+          <div class="topnav">
+              <a class="active" href="index.html">Home</a>
+              <a href="#lancamentos">Lançamentos</a>
+              <a href="#comprar">Comprar</a>
+              <a href="#anuncie">Anuncie</a>
+              <a href="#sobre">Sobre</a>
+              <a href="#contato">Contato</a>
+              <div id="btnlg">
+                <a id="topnavcriar" href="criarconta.html">Criar Conta</a>
+                <a id="topnavlogin" href="login.html">Login</a>
+              </div>
+            </div>
+          <div style="padding-left:16px"></div>
+        </div>
+    <div class="anuncie">
+        <form action="#" method="get">
+            <div class="container">
+                <div class="card">
+                    <div class="form">
+                        <!--Barra Lateral Esquerda-->
+                        <div class="left-side">
+                            <div class="left-heading">
+                                <h3 class="anuncieconosco">Anuncie conosco</h3>
+                            </div>
+                            <div class="steps-content">
+                                <h3>Passo <span class="step-number">1</span></h3>
+                            </div>
+                            <ul class="progress-bar">
+                                <li class="active">Informações pessoais</li>
+                                <li>Dados Imóvel</li>
+                                <li>Detalhes Imóvel</li>
+                                <li>Valores do Imóvel</li>
+                            </ul>
+                        </div>
+                        <!--Barra Lateral Direita-->
+                        <div class="right-side">
+                            <!--Pagina 1-->
+                            <div class="main active">
+                                <div class="text">
+                                    <h2>Suas informações pessoais</h2>
+                                    <p>Preencha algumas informações pessoais</p>
+                                </div>
+                                <div class="input-text">
+                                    <div class="input-div">
+                                        <input type="text" required require id="user_name">
+                                        <span>Nome Completo</span>
+                                    </div>
+                                </div>
+                                <div class="input-text">
+                                    <div class="input-div">
+                                        <input type="number" required require>
+                                        <span>Número de telefone</span>
+                                    </div>
+                                    <div class="input-div">
+                                        <input type="email" required require>
+                                        <span>E-mail</span>
+                                    </div>
+                                </div>
+                                <div class="buttons">
+                                    <button class="next_button">Próximo</button>
+                                </div>
+                            </div>
+                            <!--Pagina 2-->
+                            <div class="main">
+                                <div class="text">
+                                    <h2>Dados Sobre o Imóvel</h2>
+                                </div>
+                                <span class="dados2">Selecione o tipo do seu Imóvel</span>
+                                <div class="input-text">
+                                    <input type="radio" name="tipoimovel" id="imovel-casa" value="casa" required require>
+                                    <span class="radio-anuncie">Casa</span>
+                                    <input type="radio" name="tipoimovel" id="imovel-apartamento" value="apartamento" required require>
+                                    <span class="radio-anuncie">Apartamento</span>
+                                    <input type="radio" name="tipoimovel" id="imovel-lote" value="lote" required require>
+                                    <span class="radio-anuncie">Lote</span>
+                                </div>
+                                <span class="dados">Localizaçao do seu Imóvel</span>
+                                <div class="input-text">
+                                    <div class="input-div">
+                                        <input type="number" class="cep" required require>
+                                        <span>CEP</span>
+                                    </div>
+                                </div>
+                                <div class="input-text">
+                                    <div class="input-div"> 
+                                        <input type="text" required require>
+                                        <span>Endereço</span>
+                                    </div>
+                                </div>
+                                <div class="input-text">
+                                    <div class="input-div">
+                                        <input type="number" required require>
+                                        <span>Número do Endereço</span>
+                                    </div>
+                                    <div class="input-div">
+                                        <input type="text" required require>
+                                        <span>Complemento</span>
+                                    </div>
+                                </div>
+                                <div class="input-text">
+                                    <div class="input-div">
+                                        <input type="text" class="bairro" required require>
+                                        <span>Bairro / Região</span>
+                                    </div>
+                                </div>
+                                <div class="input-text">
+                                    <div class="input-div">
+                                        <input type="text" required require>
+                                        <span>Estado</span>
+                                    </div>
+                                    <div class="input-div">
+                                        <input type="text" required require>
+                                        <span>Cidade</span>
+                                    </div>
+                                </div>
+                                <span class="dados">Selecione o tipo do Anúncio</span>
+                                <div class="input-text">
+                                    <input type="radio" name="tipoimovel" id="imovel-casa" required require>
+                                    <span class="radio-anuncie">Aluguel</span>
+                                    <input type="radio" name="tipoimovel" id="imovel-apartamento" required require>
+                                    <span class="radio-anuncie">Venda</span>
+                                </div>
+                                <div class="buttons button_space">
+                                    <button class="back_button">Voltar</button>
+                                    <button class="next_button">Próximo</button>
+                                </div>
+                            </div>
+                            <!--Pagina 3-->
+                            <div class="main">
+                                <div class="text">
+                                    <h2>Detalhes sobre o Imóvel</h2>
+                                    <p>Preencha mais alguns detalhes</p>
+                                </div>
+                                <div class="input-text">
+                                    <div class="input-div">
+                                        <input type="number" required require>
+                                        <span>Área útil</span>
+                                        <span class="m2">m²</span>
+                                    </div>
+                                    <div class="input-div">
+                                        <input type="number" required require>
+                                        <span>Quantidade de Quartos</span>
+                                    </div>
+                                </div>
+                                <div class="input-text">
+                                    <div class="input-div">
+                                        <input type="number" required require>
+                                        <span>Quantidade de Banheiros</span>
+                                    </div>
+                                </div>
+                                <div class="input-text">
+                                    <div class="input-div">
+                                        <input type="number" required require>
+                                        <span>Quantidade de vagas na garagem</span>
+                                    </div>
+                                </div>
+                                <div class="input-text">
+                                    <div class="input-div">
+                                        <input type="number" required require>
+                                        <span>Quantidade de salas</span>
+                                    </div>
+                                </div>
+                                <span class="dados">Selecione as características do seu Imóvel</span> 
+                                <div class="input-text">
+                                    <input type="checkbox" class="check-anuncie" required require>
+                                    <span class="check-anun">Ar condicionado</span>
+                                </div>
+                                <div class="input-text">
+                                    <input type="checkbox" class="check-anuncie" required require>
+                                    <span class="check-anun">Churrasqueira</span>
+                                </div>
+                                <div class="input-text">
+                                    <input type="checkbox" class="check-anuncie" required require>
+                                    <span class="check-anun">Jardim</span>
+                                </div>
+                                <div class="input-text">
+                                    <input type="checkbox" class="check-anuncie" required require>
+                                    <span class="check-anun">Quintal</span>
+                                </div>
+                                <div class="input-text">
+                                    <input type="checkbox" class="check-anuncie" required require>
+                                    <span class="check-anun">Area Gurmet</span>
+                                </div>
+                                <span class="dados">Algum outro diferencial?</span>
+                                <div class="input-text">
+                                    <input type="text">
+                                </div>
+                                <div class="buttons button_space">
+                                    <button class="back_button">Voltar</button>
+                                    <button class="next_button">Próximo</button>
+                                </div>
+                            </div>
+                            <!--Pagina 3-->
+                            <div class="main">
+                                <div class="text">
+                                    <h2>Valores do Imóvel</h2>
+                                    <p>Coloque aqui o quanto quer cobrar.</p>
+                                </div>
+                                <div class="user_card">
+                                    <span class="input-group-text">R$</span>
+                                    <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                                </div>
+                                <div class="buttons button_space">
+                                    <button class="back_button">Voltar</button>
+                                    <button class="submit_button">Enviar</button>
+                                </div>
+                            </div>
+                            <!--Pagina Final-->
+                            <div class="main">
+                                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                    <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                                    <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                                </svg>   
+                                <div class="text congrats">
+                                    <h2>Parabéns!</h2>
+                                    <p>Obrigado <span class="shown_name"></span> o seu requerimento foi enviado para nossa equipe, e em pouco tempo ele será analisado e entraremos em contato com você!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+        <!--footer-->
+        <footer>
+            <div class="footer-content">
+                <h3><a id="logoa">e<span id="logob" style="color: #fff;">-mobiliaria</span></a></h3>
+                <div class="footerlnk">
+                    <ul class="footerul" >
+                        <li><a href="https://goo.gl/maps/ZyfvktbDaN11Za8x9">Rua Erê n°207 - Prado Laboratorio 6 Turma: 3005</a></li>
+                    </ul>
+                    <ul>
+                        <!-- fazer as paginas abaixo-->
+                        <li><a href="#trabalhe"> Trabalhe conosco </a>
+                            <a href="#lancamentos">Lançamentos</a>
+                            <a href="#comprar">Comprar</a>
+                            <a href="#alugar">Alugar</a>
+                            <a href="#anuncie">Anuncie</a>
+                            <a href="#sobre">Sobre</a>
+                            <a href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-square"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2022 e-mobiliaria designed by <span>alunos prof: Bruno Rodrigues</span></p>
+            </div>
+        </footer>
+</body>
+</html>
