@@ -402,6 +402,10 @@ img{
     margin-top: 10px;
     background-color: #212529;
 }
+#card-body-carrossel-c{
+    background-color: white;
+    height: 180px;
+}
 .mb-md-5{
     font-size: 16px;
     height: 355px;
@@ -1132,5 +1136,10 @@ margin: 0;
   padding-left: 0;
   margin-bottom: 0;
 }
-/*------/ Bg Image /------*/
+
+
+.card-img-top{
+    weight: 80px;
+    height: 300px;
+}
 
