@@ -73,7 +73,7 @@
                     </div>
         
                     <div>
-                      <p class="mb-0">Não tem uma conta?<a href="criarconta.html" class="text-white-50 fw-bold">Criar conta</a></p>
+                      <p class="mb-0">Não tem uma conta?<a href="criarconta.php" class="text-white-50 fw-bold">Criar conta</a></p>
                     </div>
                     
                   </div>
