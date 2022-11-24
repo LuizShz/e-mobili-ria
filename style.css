@@ -1514,6 +1514,12 @@ margin-bottom: 0;
 .anuncie .warning{
     border:1px solid red !important;
 }
+
+#extramargin{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /*right-side-end*/
 @media (max-width:750px) {
   .container{
